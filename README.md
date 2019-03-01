@@ -9,23 +9,24 @@ An interactive node application that functions similar to Amazon.  It will use M
 ***
 When the app is opened the user will see the image below.  Note on the image they are prompted to enter the item number key value to chose what to purchase.
 
-![Customer Portal](images/attemptToBuyWhenInsuficientAmount.PNG)
+![Customer Portal](images/promptToSelectItem.PNG)
 
 ****
 
 The user then will be prompted to pick a quantity to purchase.
 
-![Customer Portal](images/priceForPurchaseAndConfirmAvaliabilty.PNG)
+![Customer Portal](images/promptToSelectQuantity.PNG)
+
 
 ***
 On a successful purchase (ordering equal to or less then the total in stock quantity) the user will be given the total purchase cost and the database will be updated on the MySQL side.
 
-![Customer Portal](images/promptToSelectItem.PNG)
+![Customer Portal](images/priceForPurchaseAndConfirmAvaliabilty.PNG)
 
 ***
 Note the quantity of the ordered item has been reduced by the quantity purchased when the user opens the app again.
 
-![Customer Portal](images/promptToSelectQuantity.PNG
+![Customer Portal](images/attemptToBuyWhenInsuficientAmount.PNG)
 
 If the amount ordered exceeds the amount in stock the error shown will appear and the stock will not be updated.                           
 
